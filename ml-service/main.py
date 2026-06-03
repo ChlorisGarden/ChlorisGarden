@@ -52,7 +52,7 @@ class FocalLoss(tf.keras.losses.Loss):
         return c
 
 # Load Model
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.keras")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "models/plant_disease_v1.keras")
 
 try:
     model = tf.keras.models.load_model(
