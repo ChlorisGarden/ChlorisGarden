@@ -10,7 +10,7 @@ ChlorisGarden dibuat untuk memberikan alat bantu deteksi awal penyakit tanaman y
 
 ## Fitur Utama
 
-- Deteksi penyakit tanaman tomat melalui upload gambar atau kamera.
+- Deteksi penyakit tanaman pangan melalui upload gambar atau kamera.
 - Hasil diagnosis berbasis model Machine Learning.
 - Informasi confidence score dari hasil prediksi.
 - Ensiklopedia penyakit tanaman berisi gejala, penyebab, pencegahan, dan penanganan.
