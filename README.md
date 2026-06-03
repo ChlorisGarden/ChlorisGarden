@@ -52,10 +52,10 @@ ChlorisGarden/
 ├── frontend/             # Source code aplikasi web
 ├── ml-service/           # Service/API untuk menjalankan model Machine Learning
 ├── notebooks/            # Notebook training dan eksperimen model
+├── streamlit-app/        # Aplikasi Streamlit
 ├── docs/                 # Dokumentasi pendukung project
 ├── README.md             # Dokumentasi utama repository
 ├── DATA_DICTIONARY.md    # Data dictionary dataset dan output model
-├── .env.example          # Template environment variable
 └── .gitignore            # Daftar file/folder yang tidak di-push ke GitHub
 ```
 
@@ -82,16 +82,6 @@ Secara umum, project dijalankan melalui beberapa service berikut:
 
 Instruksi detail dapat dilihat di README masing-masing folder.
 
-## Environment Variable
-
-Repository ini menyediakan file `.env.example` sebagai template konfigurasi. Untuk menjalankan project secara lokal, salin file tersebut menjadi `.env`, lalu isi nilainya sesuai kebutuhan environment masing-masing.
-
-```bash
-cp .env.example .env
-```
-
-Jangan mengunggah file `.env` asli ke GitHub karena dapat berisi credential, token, database URL, atau secret key.
-
 ## Model Machine Learning
 
 Model Machine Learning yang digunakan pada project ini adalah model klasifikasi gambar daun tomat dengan format `.keras`. Jika ukuran model terlalu besar untuk GitHub, simpan model pada layanan eksternal seperti Google Drive, Hugging Face, AWS S3, atau penyimpanan cloud lain, lalu cantumkan tautannya pada bagian ini.
@@ -103,14 +93,14 @@ Class names: class_names.json
 
 ## Tim Pengembang
 
-| Nama | Peran | Bidang |
+| Nama | Peran | Student ID |
 |---|---|---|
-| Moch. Zacky Febrio | AI Engineering | Kecerdasan Buatan |
-| Mario Cristian Simatupang | AI Engineering | Kecerdasan Buatan |
-| Raihan Fathir Muhammad | FullStack Developer | Pengembangan Web |
-| Muhammad Rafhli Alfarizi | FullStack Developer | Pengembangan Web |
-| Tiara Christiani Sinaga | Data Science | Ilmu Data |
-| Katarina Susi Wulandari | Data Science | Ilmu Data |
+| Moch. Zacky Febrio | AI Engineering | CACC009D6Y2361 |
+| Mario Cristian Simatupang | AI Engineering | CACC009D6Y2538 |
+| Raihan Fathir Muhammad | FullStack Developer | CFCC237D6Y2263 |
+| Muhammad Rafhli Alfarizi | FullStack Developer | CFCC927D6Y1316 |
+| Tiara Christiani Sinaga | Data Science | CDCC009D6X0750 |
+| Katarina Susi Wulandari | Data Science | CDCC009D6X1126 |
 
 ## Status Project
 
