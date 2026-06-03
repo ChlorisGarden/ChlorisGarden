@@ -1,8 +1,8 @@
 # ChlorisGarden
 
-ChlorisGarden adalah aplikasi web berbasis AI yang membantu pengguna mendeteksi penyakit pada tanaman tomat melalui gambar daun. Pengguna dapat mengunggah foto atau menggunakan kamera, lalu sistem akan menampilkan hasil diagnosis, tingkat confidence, serta informasi penyakit yang relevan.
+ChlorisGarden adalah aplikasi web berbasis AI yang membantu pengguna mendeteksi penyakit pada tanaman pangan melalui citra daun. Pengguna dapat mengunggah foto atau menggunakan kamera, lalu sistem akan menampilkan hasil diagnosis, tingkat confidence, serta informasi penyakit yang relevan.
 
-Project ini dikembangkan sebagai Capstone Project Coding Camp 2026 by DBS Bank oleh tim ChlorisGarden.
+Project ini dikembangkan sebagai Capstone Project Coding Camp 2026 by DBS Bank oleh tim CC26-PSU175.
 
 ## Tujuan Project
 
